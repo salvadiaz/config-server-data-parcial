@@ -14,10 +14,6 @@ spring:
           uri: lb://catalog-service
           predicates:
             - Path=/api/v1/catalog/**
-        - id: msmovie
-          uri: lb://movie-service
-          predicates:
-            - Path=/api/v1/movies/**
 
 info:
   app:
@@ -25,7 +21,7 @@ info:
 
 eureka:
    client:
-      registerWithEureka: false
+      registerWithEureka: true
       fetchRegistry: true
       serviceURL:
          defaultZone: http://localhost:8761/eureka
