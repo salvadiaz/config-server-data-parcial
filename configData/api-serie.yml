@@ -18,7 +18,7 @@ spring:
       version: 4.0.2
     data:
       mongodb:
-        database: test
+        database: serie-dev
         port: 27017
 
 info:
