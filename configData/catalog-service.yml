@@ -15,8 +15,10 @@ spring:
   mongodb:
     embedded:
       version: 4.0.2
-    database: test-catalog
-    port: 27017
+    data:
+      mongodb:
+        database: test
+        port: 27017
   zipkin:
     baseUrl: http://localhost:9411/
 
