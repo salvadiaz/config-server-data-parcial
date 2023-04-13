@@ -12,13 +12,16 @@ spring:
     hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: true
-  mongodb:
-    embedded:
-      version: 4.0.2
-    data:
-      mongodb:
-        database: catalog-dev
-        port: 27018
+  data:
+    mongodb:
+      uri: mongodb://usr:pws@localhost:27018/catalog-dev
+#  mongodb:
+#    embedded:
+#      version: 4.0.2
+#    data:
+#      mongodb:
+#        database: catalog-dev
+#        port: 27018
   zipkin:
     baseUrl: http://localhost:9411/
 
