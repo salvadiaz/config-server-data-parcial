@@ -12,9 +12,16 @@ spring:
     hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: true
+  mongodb:
+    embedded:
+      version: 4.0.2
+
   data:
     mongodb:
-      uri: mongodb://usr:pwd@localhost:27018/catalog-dev
+      database: admin
+      username: usr
+      password: pwd
+      port: 27018
 #  mongodb:
 #    embedded:
 #      version: 4.0.2

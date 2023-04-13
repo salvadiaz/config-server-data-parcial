@@ -13,9 +13,16 @@ spring:
   zipkin:
     baseUrl: http://localhost:9411/
 
+  mongodb:
+    embedded:
+      version: 4.0.2
+
   data:
     mongodb:
-      uri: mongodb://usr:pwd@localhost:27017/serie-dev
+      database: admin
+      username: usr
+      password: pwd
+      port: 27017
 
 #  mongodb:
 #    embedded:
