@@ -14,7 +14,7 @@ spring:
     show-sql: true
   data:
     mongodb:
-      uri: mongodb://usr:pws@localhost:27018/catalog-dev
+      uri: mongodb://usr:pwd@localhost:27018/catalog-dev
 #  mongodb:
 #    embedded:
 #      version: 4.0.2

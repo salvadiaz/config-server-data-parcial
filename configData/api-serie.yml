@@ -15,7 +15,7 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb://usr:pws@localhost:27017/serie-dev
+      uri: mongodb://usr:pwd@localhost:27017/serie-dev
 
 #  mongodb:
 #    embedded:
